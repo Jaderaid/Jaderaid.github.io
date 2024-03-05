@@ -1,17 +1,32 @@
-#about {
-}
-
-#projects {
-  
-}
-
-#contact {
-  
-}
-
 /* CSS HEX */
+/*
 --thistle: #cdb4dbff;
 --fairy-tale: #ffc8ddff;
 --carnation-pink: #ffafccff;
 --uranian-blue: #bde0feff;
 --light-sky-blue: #a2d2ffff;
+*/
+
+* {
+  font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#aboutheader {
+    font-family: Impact;
+    letter-spacing: 0.1em;
+    background-color: #cdb4dbff;
+    color: gray;
+}
+
+#projectheader {
+  font-family: Impact;
+  letter-spacing: 0.1em;
+  background-color: #ffc8ddff;
+  color: gray;
+}
+
+#contactmeheader {
+  font-family: Impact;
+  letter-spacing: 0.1em;
+  background-color: #cdb4dbff;
+  color: gray;
+}
