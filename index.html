@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <!-- Add your CSS stylesheet link here -->
-    <link rel="stylesheet" type="test/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="resources\css\style.css">
 </head>
 <body>
     <header>
         <nav>
-            <ul>
+            <ul id="navbar">
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -19,12 +19,19 @@
     </header>
 
     <section id="about">
-        <h2>About Me</h2>
-        <p>Write a brief introduction about yourself here.</p>
+        <h2 id="aboutheader">About Me</h2>
+        <div>
+          <p>When I'm not lost in the realm of programming, you can typically find me losing myself in video games or breaking out of my vast board game collection. I'm all about that ideal balance of rivalry, strategy, and pure enjoyment! 🎲🎮</p>
+          <p>Even while I enjoy a nice game night, I'm just as excited about spending the evening dancing to some hot EDM tracks. Dance music has a pulsing rhythm and contagious energy that somehow just makes my soul shine! 💃🎶</p>
+          <p>I'm frequently told that I'm diligent, considerate, and detail-oriented—qualities I apply to both my coding assignments and social interactions. Whether it's learning a new programming language or getting past a particularly challenging gaming level, I'm always looking for new challenges and chances to learn and develop.</p>
+          <p>My ultimate objective? to pursue a career in front end engineering and use my love of coding as a driving force. I can't wait to leverage my passion for technology and creativity to create stunning, approachable websites that have a beneficial influence.</p>
+          <p>Oh, and here's a fun fact: I have a ton of unplayed video and board games in my backlog. So feel free to invite me along if you need a coding partner or a gaming companion!</p>
+          <p>Together, let's connect and take on this coding journey! 🚀</p>
+        </div>
     </section>
 
     <section id="projects">
-        <h2>Projects</h2>
+        <h2 id='projectheader'>Projects</h2>
         <div class="project">
             <h3>Project 1</h3>
             <p>Description of Project 1</p>
@@ -34,7 +41,7 @@
     </section>
 
     <section id="contact">
-        <h2>Contact Me</h2>
+        <h2 id="contactmeheader">Contact Me</h2>
         <form action="#">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
